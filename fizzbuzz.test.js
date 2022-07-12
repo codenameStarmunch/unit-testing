@@ -6,7 +6,7 @@ const fizzbuzz = require("./fizzbuzz");
 
 describe("fizzbuzz", () => {
     describe("fizzbuzz", () => {
-        test("fizzbuzz is an object", () => {
+        test("fizzbuzz is a function", () => {
             expect(typeof fizzbuzz).toBe("function");
         })
     })
