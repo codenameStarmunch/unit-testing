@@ -12,4 +12,6 @@ var isAnagram = function(test, original) {
     return (original === test);
    }
 
-   module.exports = isAnagram
+module.exports = isAnagram
+
+console.log(isAnagram("Words", "Sword"))
