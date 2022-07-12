@@ -13,7 +13,7 @@ describe("fizzbuzz", () => {
 })
 
 describe("fizzbuzz tests", () => {
-    test("When given a number -num- it returns an array from 1 to the number -num-", () => {
+    test("Given an integer -num- it returns an array from 1 to the integer -num-", () => {
         let num = 2;
         let expected = [1, 2];
         let actual = fizzbuzz(num);
