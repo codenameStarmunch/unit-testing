@@ -7,8 +7,8 @@ const isAnagram = require("./isAnagram");
 describe("isAnagram", () => {
     test("isAnagram is a function", () => {
     const result = isAnagram("Words", "Sword");
-    expect(result).toEqual(true);
+    expect(result).toBeTruthy();
 })}
 
-
+    
 )
