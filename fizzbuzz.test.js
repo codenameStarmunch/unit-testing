@@ -4,14 +4,7 @@ const each = require("jest-each").default;
 const fizzbuzz = require("./fizzbuzz");
 
 describe("fizzbuzz", () => {
-    describe("fizzbuzz", () => {
-        describe("fizzbuzz", () => {
-            test("fizzbuzz is a function", () => {
-                expect(typeof fizzbuzz).toBe("function");
-            })
-        })
-    })
-
+   
     describe("fizzbuzz tests", () => {
         test("Given an integer -num- it returns an array from 1 to the integer -num-", () => {
             let num = 2;
