@@ -42,9 +42,9 @@ describe("getSmallest", () => {
     describe("It handles normal inputs successfully", () => {
         
         each([
-            [[1, 2, 3], 3],
-            [[9, 8, 7], 9],
-            [[12, 36, 17], 36]
+            [[1, 2, 3], 1],
+            [[9, 8, 7], 7],
+            [[12, 36, 17], 12]
         ]).test("%s -> %s", (arr, expected) => {
             expect(getSmallest(...arr)).toEqual(expected);
         })
