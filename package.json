@@ -4,7 +4,8 @@
   "description": "This repo contains example code for unit testing in JS.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --verbose"
+    "test": "jest",
+    "coverage":  "jest --coverage"
   },
   "repository": {
     "type": "git",
