@@ -1,9 +1,10 @@
 const getLargest = (a, b, c) => {
+    console.log(a, b, c)
     return Math.max(a, b, c)
 }
 
 
-console.log(getLargest(1, 12, 5))
+console.log(getLargest(...[1, 2, 3]))
 
 
 module.exports = getLargest;

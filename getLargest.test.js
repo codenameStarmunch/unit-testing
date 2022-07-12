@@ -1,5 +1,5 @@
 const getLargest = require("./getLargest");
-const each = require("jest-each");
+const each = require("jest-each").default;
 
 describe("getLargest", () => {
 
@@ -19,7 +19,7 @@ describe("getLargest", () => {
             [[9, 8, 7], 9],
             [[12, 36, 17], 36]
         ]).test("", (arr, expected) => {
-            expected(getLargest(arr).toEqual(expected))
+            expect(getLargest(...arr)).toEqual(expected);
         })
     })
 })
