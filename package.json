@@ -4,7 +4,7 @@
   "description": "This repo contains example code for unit testing in JS.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "Jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/codenameStarmunch/unit-testing/issues"
   },
-  "homepage": "https://github.com/codenameStarmunch/unit-testing#readme"
+  "homepage": "https://github.com/codenameStarmunch/unit-testing#readme",
+  "devDependencies": {
+    "jest": "^28.1.2"
+  }
 }
