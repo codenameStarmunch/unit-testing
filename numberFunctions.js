@@ -1,28 +1,23 @@
 
 
-const getLargest = (a, b, c) => {
+function getLargest(a, b, c) {
     if (a && b && c) {
-        return Math.max(a, b, c)
+      return Math.max(a, b, c);
     } else {
-        throw "Error: bad input."
+      throw "Error: all inputs must have a value.";
     }
-}
-
-
-const getSmallest = (a, b, c) => {
+  };
+  
+function getSmallest(a, b, c) {
     if (a && b && c) {
-        return Math.min(a, b, c)
+      return Math.min(a, b, c);
     } else {
-        throw "Error: bad input."
+      throw "Error: all inputs must have a value.";
     }
-}
+  };
+  
 
-
-console.log(getLargest(...[1, 2, 3]))
-console.log(getSmallest(...[1, 2, 3]))
-
-
-module.exports = {
-    getLargest: getLargest,
-    getSmallest: getSmallest
-}
+  module.exports = {
+    getLargest,
+    getSmallest,
+  };

@@ -40,12 +40,12 @@ describe("getSmallest", () => {
 
     test("getSmallest is a function", () => {
         const result = getSmallest(1, 12, 5);
-        expect(result).toEqual(12);
+        expect(result).toEqual(1);
     });
     
     test("getSmallest is a function", () => {
         expect(typeof getSmallest).toBe("function");
-    })
+    });
 
     describe("It reports invalid inputs correctly", () => {
         test("It throws an error if one of three inputs is invalid", () => {
@@ -66,3 +66,4 @@ describe("getSmallest", () => {
         })
     })
 })
+
