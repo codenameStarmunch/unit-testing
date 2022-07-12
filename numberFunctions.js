@@ -7,7 +7,7 @@ const getSmallest = (a, b, c) => {
 }
 
 console.log(getLargest(...[1, 2, 3]))
-console.log(getSmallest(...[1, 3, 5]))
+console.log(getSmallest(...[1, 2, 3]))
 
 
 module.exports = {
