@@ -12,7 +12,6 @@ describe("fizzbuzz", () => {
     })
 })
 
-
 describe("fizzbuzz tests", () => {
     test("When given a number -num- it returns an array from 1 to the number -num-", () => {
         let num = 2;
